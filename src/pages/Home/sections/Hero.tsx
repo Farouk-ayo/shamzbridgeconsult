@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import Navbar from "../../../components/Navbar";
-import Animation from "../../../components/animation";
+import Animation from "../../../components/Animation";
 import ScrollingText from "../../../components/ScrollingText";
 import Button from "../../../components/Button";
 

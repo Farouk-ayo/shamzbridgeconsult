@@ -1,14 +1,15 @@
 import { Outlet } from "react-router";
 import Footer from "../layout/Footer";
 import { ScrollRestoration } from "react-router-dom";
+import SplashScreenManager from "../components/SplashScreenManager";
 
 const Root = () => {
   return (
-    <section>
+    <SplashScreenManager>
       <ScrollRestoration />
       <Outlet />
       <Footer />
-    </section>
+    </SplashScreenManager>
   );
 };
 export default Root;

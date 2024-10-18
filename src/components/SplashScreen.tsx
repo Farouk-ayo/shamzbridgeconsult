@@ -14,7 +14,7 @@ const SplashScreen = ({ finishLoading }: { finishLoading: () => void }) => {
             <img
               src="https://cdn.hashnode.com/res/hashnode/image/upload/v1724055539467/36a4b661-bd4f-488c-88d9-7109189330e5.png"
               alt="Logo"
-              className="object-cover scale-[2]"
+              className="w-52"
             />
           </div>
         </motion.div>
