@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
         <Animation />
 
         {/* Center Text */}
-        <div className="text-center hero-text space-y-4 self-center">
+        <div className="-mt-20 md:mt-0  z-20 text-center hero-text space-y-4 self-center">
           <h1 className="text-3xl sm:text-6xl font-bold uppercase  flex-col flex font-tradegothic ">
             Build an Organization of High Repute <br />
             Immerse yourself in{" "}
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className=" self-center">
+        <div className=" self-center absolute bottom-10">
           <div className="scroll-indicator animate-bounce hover:scale-110 transition duration-300">
             <svg
               className="w-10 h-10 text-gray-300"

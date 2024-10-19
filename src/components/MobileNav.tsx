@@ -15,25 +15,25 @@ const MobileNav: React.FC<MobileNavProps> = ({ setIsOpen }) => {
           className="hover:text-primary border-b pb-1 border-b-transparent transition hover:border-b-primary "
           onClick={handleClick}
         >
-          <a href="#introduction">Introduction</a>
+          <a href="#about-us">About us</a>
         </li>
         <li
           className="hover:text-primary border-b pb-1 border-b-transparent transition hover:border-b-primary "
           onClick={handleClick}
         >
-          <a href="#founder">Founder</a>
+          <a href="#mission-vision">Mission & Vision</a>
         </li>
         <li
           className="hover:text-primary border-b pb-1 border-b-transparent transition hover:border-b-primary"
           onClick={handleClick}
         >
-          <a href="#program-highlights">Program Highlights</a>
+          <a href="#services">Services</a>
         </li>
         <li
           className="hover:text-primary border-b pb-1 border-b-transparent transition hover:border-b-primary"
           onClick={handleClick}
         >
-          <a href="#success-stories">Success Stories</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
       </ul>
     </nav>
