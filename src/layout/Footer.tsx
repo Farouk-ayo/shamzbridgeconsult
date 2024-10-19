@@ -15,7 +15,6 @@ const Footer: React.FC = () => {
             />
           </div>
 
-          {/* Contact Information */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
             <p className="text-gray-400 mb-2">
@@ -29,7 +28,6 @@ const Footer: React.FC = () => {
             </a>
           </div>
 
-          {/* Social Media Links */}
           <div className="flex flex-col items-center md:items-end">
             <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
             <p className="text-gray-400 mb-4">Stay connected with us online.</p>
@@ -79,7 +77,6 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="text-center mt-16 text-gray-500">
         <p className="mt-2">
           Website crafted by{" "}

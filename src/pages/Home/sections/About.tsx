@@ -27,7 +27,6 @@ const AboutUs: React.FC = () => {
       id="about-us"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-        {/* Left Section: Text Content */}
         <div className="flex flex-col justify-center ">
           <h2 className=" text-3xl sm:text-4xl font-extrabold text-primary mb-4">
             About Us

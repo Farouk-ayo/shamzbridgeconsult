@@ -70,13 +70,13 @@ const Testimonial: React.FC = () => {
                 {/* Image */}
                 <div className="lg:w-1/3 w-full flex justify-center">
                   <img
-                    src={story.img} // Placeholder for the image
+                    src={story.img}
                     alt={`${story.name} testimonial`}
                     className="w-64 h-64 object-cover rounded-full"
                   />
                 </div>
 
-                {/* Founder Story Content */}
+                {/*  Content */}
                 <div className="lg:w-2/3 w-full pb-5 sm:px-10">
                   <h3 className=" text-xl sm:text-2xl font-medium mb-2">
                     {story.name}{" "}
@@ -87,7 +87,7 @@ const Testimonial: React.FC = () => {
                   <p className=" text-gray-500 text-sm italic mb-2">
                     {story.cohort}
                   </p>
-                  {/* Quote with Background */}
+                  {/* Quote */}
                   <blockquote className="quote-bg italic text-primary2 relative z-10 sm:px-10 py-4 text-base sm:text-lg ">
                     "{story.quote}"
                   </blockquote>
