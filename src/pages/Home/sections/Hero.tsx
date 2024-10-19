@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
 
         {/* Center Text */}
         <div className="text-center hero-text space-y-4 self-center">
-          <h1 className="text-5xl sm:text-7xl font-bold uppercase  flex-col flex font-tradegothic ">
+          <h1 className="text-3xl sm:text-6xl font-bold uppercase  flex-col flex font-tradegothic ">
             Build an Organization of High Repute <br />
             Immerse yourself in{" "}
             <span className="relative -skew-y-1 bg-[#00295c6e] transform perspective-300">

@@ -44,7 +44,7 @@
   font-size: 80px;
   color: #d8d2c2; /* Lighter opacity for less intrusive quote */
   position: absolute;
-  top: -10px;
+  top: 10px;
   left: -30px;
 }
 
@@ -325,18 +325,6 @@
   .arrow {
     display: none;
   }
-}
-
-/* footer  */
-.fifthCircle {
-  width: 6rem;
-  height: 6rem;
-  left: 12%;
-  top: 5rem;
-  border-radius: 100%;
-  background: linear-gradient(92.7deg, #002a5c 7.9%, #faf7f0 88.1%);
-  box-shadow: inset 1.02px 2.04px 51px #708090;
-  animation: rotation 10s alternate-reverse infinite;
 }
 
 .scrolling-text {

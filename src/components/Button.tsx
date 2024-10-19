@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={`bg-primary text-white ${sizeClass[size]} rounded-lg shadow-md hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-secondary w-40 self-center transition duration-300 ease-in-out`}
+      className={` z-10 bg-primary text-white ${sizeClass[size]} rounded-lg shadow-md hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-secondary w-40 self-center transition duration-300 ease-in-out`}
       onClick={onClick}
     >
       {children}
